@@ -1,15 +1,28 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender]
-"DisableAntiSpyware"=dword:1
-"DisableAntiVirus"=dword:1
-"DisableRoutinelyTakingAction"=dword:1
+; Based on https://gist.github.com/PocketAppZ/7fbb1c36f6e09b338a0773a82ea6fd75
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Real-Time Protection]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:1
 "DisableRealtimeMonitoring"=dword:1
+"DisableAntiVirus"=dword:1
+"DisableSpecialRunningModes"=dword:1
+"DisableRoutinelyTakingAction"=dword:1
+"ServiceKeepAlive"=dword:0
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Policy Manager]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
 "DisableBehaviorMonitoring"=dword:1
 "DisableOnAccessProtection"=dword:1
 "DisableScanOnRealtimeEnable"=dword:1
+"DisableRealtimeMonitoring"=dword:1
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Signature Updates]
+"ForceUpdateFromMU"=dword:0
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet]
+"DisableBlockAtFirstSeen"=dword:1
 
 [Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend]
 "Start"=dword:3
