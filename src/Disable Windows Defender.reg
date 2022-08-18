@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:1
+"DisableAntiVirus"=dword:1
+"DisableRoutinelyTakingAction"=dword:1
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Real-Time Protection]
+"DisableRealtimeMonitoring"=dword:1
+"DisableBehaviorMonitoring"=dword:1
+"DisableOnAccessProtection"=dword:1
+"DisableScanOnRealtimeEnable"=dword:1
+
+[Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend]
+"Start"=dword:3
