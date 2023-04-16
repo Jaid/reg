@@ -40,4 +40,4 @@ temp
 *.stackdump
 
 # Regfile versions with personal passwords
-/src/enableAutomaticLoginPersonal.reg
+/src*/enableAutomaticLoginPersonal.reg
