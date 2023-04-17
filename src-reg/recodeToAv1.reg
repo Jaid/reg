@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\jaidRecodeToAv1]
+@="Recode to AV1"
+"Icon"="D:/ico/Video.ico"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\jaidRecodeToAv1\command]
+@="P:\\git\\autohotkey-scripts\\dist\\runBashScript.exe P:/otherGit/scripts/bin/recodeToAv1 \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\jaidRecodeToAv1]
+@="Recode to AV1"
+"Icon"="D:/ico/Video.ico"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\jaidRecodeToAv1\command]
+@="P:\\git\\autohotkey-scripts\\dist\\runBashScript.exe P:/otherGit/scripts/bin/recodeToAv1 \"%1\""
+
+[HKEY_CLASSES_ROOT\*\shell\jaidRecodeToAv1]
+@="Recode to AV1"
+"Icon"="D:/ico/Video.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\jaidRecodeToAv1\command]
+@="P:\\git\\autohotkey-scripts\\dist\\runBashScript.exe P:/otherGit/scripts/bin/recodeToAv1 \"%1\""
