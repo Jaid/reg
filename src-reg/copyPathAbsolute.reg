@@ -5,11 +5,11 @@ Windows Registry Editor Version 5.00
 "Icon"="D:/ico/Monitor.ico"
 
 [HKEY_CLASSES_ROOT\*\shell\jaidCopyPathAbsolute\command]
-@="P:\\git\\autohotkey-scripts\\dist\\runBashScript.exe P:/otherGit/scripts/bin/copyPathAbsolute \"%1\""
+@="D:\\git\\autohotkey-scripts\\dist\\runBashScript.exe D:/git/.foreign/scripts/bin/copyPathAbsolute \"%1\""
 
 [HKEY_CLASSES_ROOT\*\shell\jaidCopyPathAbsolute]
 @="Copy Path Absolute"
 "Icon"="D:/ico/Monitor.ico"
 
 [HKEY_CLASSES_ROOT\*\shell\jaidCopyPathAbsolute\command]
-@="P:\\git\\autohotkey-scripts\\dist\\runBashScript.exe P:/otherGit/scripts/bin/copyPathAbsolute \"%1\""
+@="D:\\git\\autohotkey-scripts\\dist\\runBashScript.exe D:/git/.foreign/scripts/bin/copyPathAbsolute \"%1\""

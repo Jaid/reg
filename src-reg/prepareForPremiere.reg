@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\prepareForPremiere]
+@="Prepare for Premiere"
+"Icon"="D:/ico/Video.ico"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\prepareForPremiere\command]
+@="D:\\git\\autohotkey-scripts\\dist\\runBashScript.exe D:/git/.foreign/scripts/bin/prepareForPremiere \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\prepareForPremiere]
+@="Prepare for Premiere"
+"Icon"="D:/ico/Video.ico"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\prepareForPremiere\command]
+@="D:\\git\\autohotkey-scripts\\dist\\runBashScript.exe D:/git/.foreign/scripts/bin/prepareForPremiere \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\prepareForPremiere]
+@="Prepare for Premiere"
+"Icon"="D:/ico/Video.ico"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.webm\shell\prepareForPremiere\command]
+@="D:\\git\\autohotkey-scripts\\dist\\runBashScript.exe D:/git/.foreign/scripts/bin/prepareForPremiere \"%1\""
